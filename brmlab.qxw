@@ -1,5 +1,5 @@
 <!DOCTYPE Workspace>
-<Workspace CurrentWindow="FixtureManager">
+<Workspace CurrentWindow="VirtualConsole">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.3.3</Version>
@@ -225,13 +225,13 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="200" X="360" Y="90" Height="270" Visible="False"/>
+    <WindowState Width="200" X="285" Y="15" Height="270" Visible="True"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
     <Collapsed>False</Collapsed>
     <Slider Caption="R" InvertedAppearance="false">
-     <WindowState Width="60" X="10" Y="40" Height="220" Visible="False"/>
+     <WindowState Width="60" X="10" Y="40" Height="220" Visible="True"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -251,7 +251,7 @@
      </Playback>
     </Slider>
     <Slider Caption="G" InvertedAppearance="false">
-     <WindowState Width="60" X="70" Y="40" Height="220" Visible="False"/>
+     <WindowState Width="60" X="70" Y="40" Height="220" Visible="True"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -271,7 +271,7 @@
      </Playback>
     </Slider>
     <Slider Caption="B" InvertedAppearance="false">
-     <WindowState Width="60" X="130" Y="40" Height="220" Visible="False"/>
+     <WindowState Width="60" X="130" Y="40" Height="220" Visible="True"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -299,13 +299,13 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="200" X="570" Y="90" Height="270" Visible="False"/>
+    <WindowState Width="200" X="500" Y="15" Height="270" Visible="True"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
     <Collapsed>False</Collapsed>
     <Slider Caption="R" InvertedAppearance="false">
-     <WindowState Width="60" X="10" Y="40" Height="220" Visible="False"/>
+     <WindowState Width="60" X="10" Y="40" Height="220" Visible="True"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -323,7 +323,7 @@
      </Playback>
     </Slider>
     <Slider Caption="G" InvertedAppearance="false">
-     <WindowState Width="60" X="70" Y="40" Height="220" Visible="False"/>
+     <WindowState Width="60" X="70" Y="40" Height="220" Visible="True"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -341,7 +341,7 @@
      </Playback>
     </Slider>
     <Slider Caption="B" InvertedAppearance="false">
-     <WindowState Width="60" X="130" Y="40" Height="220" Visible="False"/>
+     <WindowState Width="60" X="130" Y="40" Height="220" Visible="True"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -367,13 +367,13 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="140" X="210" Y="90" Height="335" Visible="False"/>
+    <WindowState Width="140" X="135" Y="15" Height="335" Visible="True"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
     <Collapsed>False</Collapsed>
     <Slider Caption="Power" InvertedAppearance="false">
-     <WindowState Width="60" X="70" Y="40" Height="220" Visible="False"/>
+     <WindowState Width="60" X="70" Y="40" Height="220" Visible="True"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -390,7 +390,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Freq" InvertedAppearance="false">
-     <WindowState Width="60" X="10" Y="40" Height="220" Visible="False"/>
+     <WindowState Width="60" X="10" Y="40" Height="220" Visible="True"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -410,11 +410,11 @@
      <Function ID="4"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="120" X="10" Y="270" Height="50" Visible="False"/>
+     <WindowState Width="120" X="10" Y="270" Height="50" Visible="True"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4294967040</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -428,13 +428,13 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="110" X="90" Y="90" Height="375" Visible="False"/>
+    <WindowState Width="110" X="15" Y="15" Height="375" Visible="True"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
     <Collapsed>False</Collapsed>
     <Slider Caption="Power" InvertedAppearance="false">
-     <WindowState Width="60" X="40" Y="40" Height="220" Visible="False"/>
+     <WindowState Width="60" X="40" Y="40" Height="220" Visible="True"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -454,7 +454,7 @@
      <Function ID="1"/>
      <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="60" X="40" Y="270" Height="50" Visible="False"/>
+     <WindowState Width="60" X="40" Y="270" Height="50" Visible="True"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -467,7 +467,7 @@
      <Function ID="1"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="60" X="40" Y="325" Height="40" Visible="False"/>
+     <WindowState Width="60" X="40" Y="325" Height="40" Visible="True"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -479,7 +479,7 @@
    </Frame>
   </Frame>
   <Properties>
-   <Size Width="1920" Height="1080"/>
+   <Size Width="800" Height="600"/>
    <Keyboard TapModifier="67108864"/>
    <GrandMaster SliderMode="Normal" ChannelMode="Intensity" ValueMode="Reduce"/>
   </Properties>
