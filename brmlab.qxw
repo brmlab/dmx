@@ -207,6 +207,27 @@
    <FixtureVal ID="2">0,0</FixtureVal>
    <FixtureVal ID="3">0,0</FixtureVal>
   </Function>
+  <Function Type="Scene" Name="Red 255" ID="6">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="4">0,255</FixtureVal>
+   <FixtureVal ID="8">0,255</FixtureVal>
+   <FixtureVal ID="12">0,255</FixtureVal>
+   <FixtureVal ID="15">0,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Green 255" ID="7">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="5">0,255</FixtureVal>
+   <FixtureVal ID="9">0,255</FixtureVal>
+   <FixtureVal ID="13">0,255</FixtureVal>
+   <FixtureVal ID="16">0,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Blue 255" ID="8">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="6">0,255</FixtureVal>
+   <FixtureVal ID="10">0,255</FixtureVal>
+   <FixtureVal ID="14">0,255</FixtureVal>
+   <FixtureVal ID="17">0,255</FixtureVal>
+  </Function>
  </Engine>
  <VirtualConsole>
   <Frame Caption="">
@@ -225,7 +246,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="200" X="285" Y="15" Height="270" Visible="True"/>
+    <WindowState Width="200" X="285" Y="15" Height="375" Visible="True"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -234,7 +255,7 @@
      <WindowState Width="60" X="10" Y="40" Height="220" Visible="True"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
+      <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4294901760</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
@@ -254,7 +275,7 @@
      <WindowState Width="60" X="70" Y="40" Height="220" Visible="True"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
+      <ForegroundColor>4278190080</ForegroundColor>
       <BackgroundColor>4278255360</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
@@ -274,7 +295,7 @@
      <WindowState Width="60" X="130" Y="40" Height="220" Visible="True"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
+      <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4278190335</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
@@ -290,6 +311,90 @@
       <Function>4294967295</Function>
      </Playback>
     </Slider>
+    <Button Icon="" Caption="Flash">
+     <Function ID="6"/>
+     <Action>Flash</Action>
+     <Key>1</Key>
+     <Intensity Adjust="False">100</Intensity>
+     <WindowState Width="60" X="10" Y="270" Height="50" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>4294901760</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" Caption="Toggle">
+     <Function ID="6"/>
+     <Action>Toggle</Action>
+     <Key>Shift+!</Key>
+     <Intensity Adjust="False">100</Intensity>
+     <WindowState Width="60" X="10" Y="325" Height="40" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>4294901760</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" Caption="Flash">
+     <Function ID="7"/>
+     <Action>Flash</Action>
+     <Key>2</Key>
+     <Intensity Adjust="False">100</Intensity>
+     <WindowState Width="60" X="70" Y="270" Height="50" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>4278190080</ForegroundColor>
+      <BackgroundColor>4278255360</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" Caption="Flash">
+     <Function ID="8"/>
+     <Action>Flash</Action>
+     <Key>3</Key>
+     <Intensity Adjust="False">100</Intensity>
+     <WindowState Width="60" X="130" Y="270" Height="50" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>4278190335</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" Caption="Toggle">
+     <Function ID="7"/>
+     <Action>Toggle</Action>
+     <Key>Shift+@</Key>
+     <Intensity Adjust="False">100</Intensity>
+     <WindowState Width="60" X="70" Y="325" Height="40" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>4278190080</ForegroundColor>
+      <BackgroundColor>4278255360</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" Caption="Toggle">
+     <Function ID="8"/>
+     <Action>Toggle</Action>
+     <Key>Shift+#</Key>
+     <Intensity Adjust="False">100</Intensity>
+     <WindowState Width="60" X="130" Y="325" Height="40" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>4278190335</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
    </Frame>
    <Frame Caption="Inner lights">
     <Appearance>
@@ -308,7 +413,7 @@
      <WindowState Width="60" X="10" Y="40" Height="220" Visible="True"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
+      <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4294901760</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
@@ -326,7 +431,7 @@
      <WindowState Width="60" X="70" Y="40" Height="220" Visible="True"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
+      <ForegroundColor>4278190080</ForegroundColor>
       <BackgroundColor>4278255360</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
@@ -344,7 +449,7 @@
      <WindowState Width="60" X="130" Y="40" Height="220" Visible="True"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
+      <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4278190335</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
@@ -367,7 +472,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="140" X="135" Y="15" Height="335" Visible="True"/>
+    <WindowState Width="140" X="15" Y="15" Height="335" Visible="True"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -376,7 +481,7 @@
      <WindowState Width="60" X="70" Y="40" Height="220" Visible="True"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
+      <ForegroundColor>4278190080</ForegroundColor>
       <BackgroundColor>4294967040</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
@@ -393,7 +498,7 @@
      <WindowState Width="60" X="10" Y="40" Height="220" Visible="True"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
+      <ForegroundColor>4278190080</ForegroundColor>
       <BackgroundColor>4294967040</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
@@ -409,11 +514,12 @@
     <Button Icon="" Caption="Flash">
      <Function ID="4"/>
      <Action>Toggle</Action>
+     <Key>S</Key>
      <Intensity Adjust="False">100</Intensity>
      <WindowState Width="120" X="10" Y="270" Height="50" Visible="True"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
+      <ForegroundColor>4278190080</ForegroundColor>
       <BackgroundColor>4294967040</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
@@ -428,17 +534,17 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="110" X="15" Y="15" Height="375" Visible="True"/>
+    <WindowState Width="110" X="165" Y="15" Height="375" Visible="True"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
     <Collapsed>False</Collapsed>
     <Slider Caption="Power" InvertedAppearance="false">
-     <WindowState Width="60" X="40" Y="40" Height="220" Visible="True"/>
+     <WindowState Width="60" X="30" Y="40" Height="220" Visible="True"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>4294923520</BackgroundColor>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>4289331455</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -453,12 +559,13 @@
     <Button Icon="" Caption="Flash">
      <Function ID="1"/>
      <Action>Flash</Action>
+     <Key>F</Key>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="60" X="40" Y="270" Height="50" Visible="True"/>
+     <WindowState Width="60" X="30" Y="270" Height="50" Visible="True"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>4294923520</BackgroundColor>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>4289331455</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -467,11 +574,11 @@
      <Function ID="1"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="60" X="40" Y="325" Height="40" Visible="True"/>
+     <WindowState Width="60" X="30" Y="325" Height="40" Visible="True"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>4294923520</BackgroundColor>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>4289331455</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
